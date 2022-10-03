@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+}
+
+.card {
+    width: 20rem;
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+.containerCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.supprimer {
+    width: 6rem;
+    padding: .5rem 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.show {
+    width: 6rem;
+    padding: .5rem 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+
+}
+
+.downloads {
+    width: 6rem;
+    padding: .5rem 1rem;
+    background-color: green;
+    color: white;
+    border: none;
+
+}
+
+.containerButton {
+    display: flex;
+    gap: .5rem;
+}
